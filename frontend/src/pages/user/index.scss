@@ -1,0 +1,60 @@
+/**
+ * 用户页面样式
+ */
+.user-page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+
+  &__header {
+    background: linear-gradient(135deg, #1890ff, #36cfc9);
+    padding: 80px 30px 60px;
+    text-align: center;
+  }
+
+  &__avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+
+  &__name {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  &__content {
+    padding: 30px;
+    margin-top: -30px;
+  }
+
+  &__menu {
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  &__menu-item {
+    padding: 30px;
+    border-bottom: 1px solid #f0f0f0;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__btn {
+    background-color: #1890ff;
+    color: #fff;
+    border-radius: 40px;
+    margin-top: 40px;
+  }
+}

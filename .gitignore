@@ -1,13 +1,75 @@
-# Python
+# ==================== 通用 ====================
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# 日志文件
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+*.local
+
+# ==================== 前端 (Taro/Node.js) ====================
+
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# 构建输出
+dist/
+build/
+.output/
+.nuxt/
+.cache/
+
+# 测试
+coverage/
+.nyc_output/
+
+# Taro 特定
+.temp/
+.rn_temp/
+
+# 小程序
+project.private.config.json
+
+# ==================== 后端 (Python/Flask) ====================
+
+# Python 字节码
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
-dist/
-downloads/
 eggs/
 .eggs/
 lib/
@@ -20,31 +82,48 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# 虚拟环境
+.venv/
 venv/
 ENV/
 env/
-.venv/
+.env/
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
 
-# Environment variables
-.env
-.env.local
-.env.*.local
+# 数据库迁移
+migrations/versions/__pycache__/
 
-# Logs
-logs/
-*.log
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
 
-# OS
-.DS_Store
-Thumbs.db
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==================== 其他 ====================
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 敏感文件
+*.pem
+*.key
+secrets/
 
 # Qoder
 .qoder/
