@@ -1,0 +1,33 @@
+# Flask 框架
+Flask==3.0.0
+flask-cors==4.0.0
+
+# 数据库
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+
+# 数据库迁移
+Flask-Migrate==4.0.5
+
+# JWT 认证
+Flask-JWT-Extended==4.6.0
+
+# 数据验证
+marshmallow==3.20.1
+webargs==8.2.0
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# 开发工具
+black==23.12.1
+isort==5.13.2
+flake8==6.1.0
+mypy==1.7.1
+
+# 测试
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# 生产服务器
+gunicorn==21.2.0
